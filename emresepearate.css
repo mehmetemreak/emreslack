@@ -57,8 +57,9 @@ div section input#talk:hover {
 }
 
 div#percent {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div span h3{
@@ -75,4 +76,16 @@ div span p {
 
 *, ::after, ::before {
     box-sizing: inherit;
+}
+
+section {
+    -webkit-mask-image:url(https://www.youtube.com/embed/IDrUzXubiiQ);
+    -webkit-mask-position:left top;
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-size:150%;
+  
+    mask-image:url(https://www.youtube.com/embed/IDrUzXubiiQ);
+    mask-position:left top;
+    mask-repeat:no-repeat;
+    mask-size:150%;
 }
