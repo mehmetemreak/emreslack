@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    --purple: #541554;
+    --light-purple: #6e1e62;
+    --dark-purple: #2e0a2f;
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #36c5f0;
+    --blue-accesible: #2ea3f2;
+    --green: #2eb67d;
+    --green-accesible: #007a5a;
+    --yellow: #ecb22e;
+    --red: #e01e5a;
+    --google-blue: #4285f4;
+  }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section  {
+    text-align: center;
+}
+div section input#meet{
+    display: inline-block;
+    margin-block: 1vh;
+    color: white;
+    background-color: var(--purple);
+    padding: 20px 40px 20px;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    
+}
+div section input#meet:hover {
+    background-color: var(--dark-purple);
+
+}
+div section input#talk {
+    display: inline-block;
+    margin-block: 1vh;
+    background-color: white;
+    border: 2px solid var(--purple);
+    padding: 20px 86px 20px;
+    border-radius: 4px;
+    font-weight: bolder;
+    color: var(--purple);
+}
+
+div section input#talk:hover {
+    border-width: 0.15rem;
+}
+
+div#percent {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+div span h3{
+    display: grid;
+    grid-template-rows: auto;
+    font-size: xx-large;
+    text-align: center;
+    color: var(--purple);
+}
+
+div span p {
+    font-size: smaller;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
